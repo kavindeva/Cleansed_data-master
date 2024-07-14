@@ -1,0 +1,180 @@
+Time,TZone,Severity,Logger,Thread,Text
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread, |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.addGeoLocations(WorkorderFetchBAPI.java:250) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:230) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.lam.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:42) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:54) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.stephandler.GetWorkOrdersStepHandler.run(GetWorkOrdersStepHandler.java:43) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.steplet.GetWorkOrdersSteplet.execute(GetWorkOrdersSteplet.java:32) |
+2020 05 28 06:05:19,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread, |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.addGeoLocations(WorkorderFetchBAPI.java:250) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:230) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.lam.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:42) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:54) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.stephandler.GetWorkOrdersStepHandler.run(GetWorkOrdersStepHandler.java:43) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.steplet.GetWorkOrdersSteplet.execute(GetWorkOrdersSteplet.java:32) |
+2020 05 28 06:47:03,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 07:04:22,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry Runtime Worker 1228 Thread,"Exception: 07:04:22 05/28/2020 : 3 (Agentry), XFailedToSendResponse (9, 3, 22, e0029044, ), ..\agentry\netmsg.cpp"
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread, |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.addGeoLocations(WorkorderFetchBAPI.java:250) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:230) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.lam.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:42) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:54) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.stephandler.GetWorkOrdersStepHandler.run(GetWorkOrdersStepHandler.java:43) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.steplet.GetWorkOrdersSteplet.execute(GetWorkOrdersSteplet.java:32) |
+2020 05 28 07:06:44,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread, |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.addGeoLocations(WorkorderFetchBAPI.java:250) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:230) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.lam.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:42) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:54) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.stephandler.GetWorkOrdersStepHandler.run(GetWorkOrdersStepHandler.java:43) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.workorder.steplet.GetWorkOrdersSteplet.execute(GetWorkOrdersSteplet.java:32) |
+2020 05 28 07:08:03,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 07:12:09,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry Runtime Worker 1228 Thread,"Exception: 07:12:09 05/28/2020 : 3 (Agentry), XFailedToSendResponse (9, 6, 22, e0029044, ), ..\agentry\netmsg.cpp"
+2020 05 28 07:27:09,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,com.syclo.agentry.BusinessLogicException: 00000000000000000001 confirmations are incorrect. For details see parameter DETAIL_RETURN |
+2020 05 28 07:27:09,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,Actual date(s) is in the future (check parameters) |
+2020 05 28 07:27:09,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread, |
+2020 05 28 07:27:09,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.User.rethrowException(User.java:1128) |
+2020 05 28 07:27:09,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.stephandler.LaborAddStepHandler.run(LaborAddStepHandler.java:45) |
+2020 05 28 07:27:09,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.steplet.LaborAddSteplet.execute(LaborAddSteplet.java:71) |
+2020 05 28 07:27:09,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 07:27:09,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry SAPWM Worker 3876 Thread,"Exception: 07:27:09 05/28/2020 : 20 (Agentry3), Java Business Logic Error (com.syclo.agentry.BusinessLogicException: LaborAddSteplet - 00000000000000000001 confirmations are incorrect. For details see parameter DETAIL_RETURN), Actual date(s) is in the future (check parameters) |"
+2020 05 28 07:27:55,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry Runtime Worker 9592 Thread,"Exception: 07:27:55 05/28/2020 : 3 (Agentry), XFailedToSendResponse (9, 36, 22, e0029044, ), ..\agentry\netmsg.cpp"
+2020 05 28 07:51:06,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry Runtime Worker 9592 Thread,"Exception: 07:51:06 05/28/2020 : 3 (Agentry), XFailedToSendResponse (9, 91, 16, E0026021, ), ..\agentry\netmsg.cpp"
+2020 05 28 07:53:16,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry SAPIM Worker 8352 Thread,"Exception: 07:53:16 05/28/2020 : 3 (Agentry), XFailedToSendResponse (200, 106, 21, e0026021, ), ..\agentry\netmsg.cpp"
+2020 05 28 07:53:24,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry SAPIM Worker 7268 Thread,"Exception: 07:53:24 05/28/2020 : 20 (Agentry3), Java Business Logic Error (com.syclo.agentry.BusinessLogicException: ZIssueSteplet - RE Reserved quant. exceeded by 1 EA : 2700101971 D001 0050 DUTCO-0001"
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread, |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.addGeoLocations(WorkorderFetchBAPI.java:250) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:230) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.lam.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:42) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:54) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.stephandler.GetWorkOrdersStepHandler.run(GetWorkOrdersStepHandler.java:43) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.steplet.GetWorkOrdersSteplet.execute(GetWorkOrdersSteplet.java:32) |
+2020 05 28 08:01:37,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread, |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.addGeoLocations(NotificationFetchBAPI.java:152) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:136) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:68) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.notification.object.GetNotificationsStepHandler.run(GetNotificationsStepHandler.java:50) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.notification.steplet.GetNotificationsSteplet.execute(GetNotificationsSteplet.java:36) |
+2020 05 28 08:03:53,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread, |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.addGeoLocations(NotificationFetchBAPI.java:152) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:136) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.workmanager.custom.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:68) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.workmanager.custom.notification.object.GetNotificationsStepHandler.run(GetNotificationsStepHandler.java:50) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.workmanager.custom.notification.steplet.GetNotificationsSteplet.execute(GetNotificationsSteplet.java:36) |
+2020 05 28 08:05:17,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 3344 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 08:16:23,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry SAPIM Worker 7268 Thread,"Exception: 08:16:23 05/28/2020 : 20 (Agentry3), Java Business Logic Error (com.syclo.agentry.BusinessLogicException: ZIssueSteplet - System cannot find source storage bin),  |"
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread, |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.addGeoLocations(NotificationFetchBAPI.java:152) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:136) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.workmanager.custom.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:68) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.workmanager.custom.notification.object.GetNotificationsStepHandler.run(GetNotificationsStepHandler.java:50) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.workmanager.custom.notification.steplet.GetNotificationsSteplet.execute(GetNotificationsSteplet.java:36) |
+2020 05 28 08:18:55,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread, |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.addGeoLocations(WorkorderFetchBAPI.java:250) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:230) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.lam.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:42) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:54) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.stephandler.GetWorkOrdersStepHandler.run(GetWorkOrdersStepHandler.java:43) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.steplet.GetWorkOrdersSteplet.execute(GetWorkOrdersSteplet.java:32) |
+2020 05 28 08:19:10,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread, |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.addGeoLocations(NotificationFetchBAPI.java:152) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:136) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:68) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.notification.object.GetNotificationsStepHandler.run(GetNotificationsStepHandler.java:50) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.notification.steplet.GetNotificationsSteplet.execute(GetNotificationsSteplet.java:36) |
+2020 05 28 08:19:15,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 08:31:54,+0400,ERROR,com.sap.mobile.platform.server.agentry.console,Agentry SAPIM Worker 8352 Thread,"Exception: 08:31:54 05/28/2020 : 20 (Agentry3), Java Business Logic Error (com.syclo.agentry.BusinessLogicException: ZIssueSteplet - Storage location 0001 for material 2800014154 plant 1400 valuation type NEW does not exist"
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread, |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.addGeoLocations(WorkorderFetchBAPI.java:250) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:230) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.component.lam.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:42) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.bapi.WorkorderFetchBAPI.processResults(WorkorderFetchBAPI.java:54) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.stephandler.GetWorkOrdersStepHandler.run(GetWorkOrdersStepHandler.java:43) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.workmanager.custom.workorder.steplet.GetWorkOrdersSteplet.execute(GetWorkOrdersSteplet.java:32) |
+2020 05 28 08:33:25,+0400,ERROR,System.err,Agentry SAPWM Worker 6748 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread, |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.addGeoLocations(NotificationFetchBAPI.java:152) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:136) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:68) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.notification.object.GetNotificationsStepHandler.run(GetNotificationsStepHandler.java:50) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.workmanager.custom.notification.steplet.GetNotificationsSteplet.execute(GetNotificationsSteplet.java:36) |
+2020 05 28 08:33:41,+0400,ERROR,System.err,Agentry SAPWM Worker 3876 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,com.syclo.agentry.AgentryException: Can not determine valid Geospatial Services. |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread, |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.init(BAPIErrorHandler.java:76) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.bapi.BAPIErrorHandler.<init>(BAPIErrorHandler.java:48) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.bapi.BAPI.checkForErrors(BAPI.java:370) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.bapi.BAPI.run(BAPI.java:239) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.addGeoLocations(NotificationFetchBAPI.java:152) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.component.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:136) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.workmanager.custom.notification.bapi.NotificationFetchBAPI.processResults(NotificationFetchBAPI.java:68) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.workmanager.custom.notification.object.GetNotificationsStepHandler.run(GetNotificationsStepHandler.java:50) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.workmanager.custom.notification.steplet.GetNotificationsSteplet.execute(GetNotificationsSteplet.java:36) |
+2020 05 28 08:36:10,+0400,ERROR,System.err,Agentry SAPWM_PS Worker 6636 Thread,	at com.syclo.sap.Steplet.doSteplet(Steplet.java:169) |
